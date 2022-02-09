@@ -11,26 +11,26 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Ryan',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: '',
+  greetingAfternoon: '',
+  greetingEvening: '',
+  greetingNight: '',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+  weatherKey: '13227f10240887e4e21e8371f6092ed8', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '39.961178',
+  defaultLongitude: '-82.998795',
 
   // Autochange
   autoChangeTheme: true,
@@ -39,7 +39,7 @@ const CONFIG = {
   changeThemeByOS: false, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
+  changeThemeByHour: false,
   hourDarkThemeActive: '18:30',
   hourDarkThemeInactive: '07:00',
 
