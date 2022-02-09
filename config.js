@@ -17,10 +17,10 @@ const CONFIG = {
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: '',
-  greetingAfternoon: '',
-  greetingEvening: '',
-  greetingNight: '',
+  greetingMorning: 'Greetings',
+  greetingAfternoon: 'Greetings',
+  greetingEvening: 'Greetings',
+  greetingNight: 'Greetings',
 
   // Weather
   weatherKey: '13227f10240887e4e21e8371f6092ed8', // Write here your API Key
