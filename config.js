@@ -11,29 +11,26 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Ryan',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
-  // Layout
-  bentoLayout: 'bento', // 'bento', 'cards', 'lists'
-
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'Greetings',
+  greetingAfternoon: 'Greetings',
+  greetingEvening: 'Greetings',
+  greetingNight: 'Greetings',
 
   // Weather
-  weatherKey: '15fe26a8e22e4783054e3273824c5e7b', // Write here your API Key
+  weatherKey: '13227f10240887e4e21e8371f6092ed8', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '39.961178',
+  defaultLongitude: '-82.998795',
 
   // Autochange
   autoChangeTheme: true,
@@ -42,15 +39,16 @@ const CONFIG = {
   changeThemeByOS: false, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
+  changeThemeByHour: false,
   hourDarkThemeActive: '18:30',
   hourDarkThemeInactive: '07:00',
 
-  // ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
-  // ├┴┐│ │ │  │ │ ││││└─┐
-  // └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
+  // ┌─┐┌─┐┬─┐┌┬┐┌─┐
+  // │  ├─┤├┬┘ ││└─┐
+  // └─┘┴ ┴┴└──┴┘└─┘
 
-  buttons: [
+  // Links
+  cards: [
     {
       id: '1',
       name: 'Github',
@@ -87,43 +85,6 @@ const CONFIG = {
       icon: 'youtube',
       link: 'https://odysee.com/',
     },
-    {
-      id: '7',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
-    },
-    {
-      id: '8',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
-    },
-    {
-      id: '9',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
-    },
-    {
-      id: '10',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
-    },
-    {
-      id: '11',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
-    },
-    {
-      id: '12',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
-    },
-
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
